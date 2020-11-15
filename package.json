@@ -32,6 +32,7 @@
     "test": "NODE_ENV=test mocha  --timeout 10000 ./src/tests/*.test.js --require @babel/register --exit ",
     "start": "babel-node index.js",
     "cover": "nyc npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "dev": "nodemon --exec babel-node  index.js",
     "migrate": " sequelize db:migrate",
     "migrate:undo": "sequelize db:migrate:undo"
