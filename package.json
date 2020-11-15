@@ -1,0 +1,41 @@
+{
+  "name": "login-sys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "bcrypt": "^5.0.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_ENV=test mocha  --timeout 10000 ./src/tests/*.test.js --require @babel/register --exit ",
+    "start": "babel-node index.js",
+    "cover": "nyc npm run test",
+    "dev": "nodemon --exec babel-node  index.js",
+    "migrate": " sequelize db:migrate",
+    "migrate:undo": "sequelize db:migrate:undo"
+  },
+  "author": "",
+  "license": "ISC"
+}
