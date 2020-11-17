@@ -26,11 +26,51 @@ export const create = async (req, res) => {
     errorRes(res, 500, 'Ther was error while creating a user');
   }
 };
+
 export const getAll = async (req, res) => {
   try {
-    const users = User.findAll();
+    const users = await User.findAll();
     successRes(res, 200, 'Successfully got All users', users);
   } catch (error) {
     errorRes(res, 500, 'Ther was error while fetching users');
+  }
+};
+
+export const login = async (req, res) => {
+  const { email, password } = req.body;
+  try {
+    const foundUser = await User.findAll({
+      where: {
+        email: email,
+      },
+    });
+    if (foundUser.length < 1) {
+      errorRes(res, 500, 'User not found');
+    } else {
+      await bcrypt.compare(password, foundUser[0].password, (err, result) => {
+        if (err) {
+          errorRes(res, 500, 'password is wrong');
+        }
+        if (result) {
+          const token = jwt.sign(
+            {
+              email: foundUser[0].email,
+              id: foundUser[0].id,
+            },
+            process.env.JWT_KEY,
+            {
+              expiresIn: '2h',
+            },
+          );
+          successRes(res, 200, 'Logged in successfully', {
+            token,
+            user: foundUser[0],
+          });
+        }
+      });
+    }
+  } catch (error) {
+    console.log(error);
+    errorRes(res, 500, 'There was problem while logging in');
   }
 };
