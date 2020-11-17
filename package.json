@@ -15,6 +15,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mocha": "^8.2.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.6",
@@ -30,10 +31,10 @@
   "devDependencies": {},
   "scripts": {
     "test": "NODE_ENV=test mocha  --timeout 10000 ./src/tests/*.test.js --require @babel/register --exit ",
-    "start": "babel-node index.js",
+    "start": "babel-node src",
     "cover": "nyc npm run test",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "dev": "nodemon --exec babel-node  index.js",
+    "dev": "nodemon --exec babel-node  src",
     "migrate": " sequelize db:migrate",
     "migrate:undo": "sequelize db:migrate:undo"
   },

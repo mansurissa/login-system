@@ -12,7 +12,7 @@ app.use(cors());
 app.use(urlencoded({ extended: false }));
 app.use(json());
 
-app.use('/users', router);
+app.use('/api/users', router);
 
 app.listen(
   process.env.PORT,
