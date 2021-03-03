@@ -1,0 +1,120 @@
+2021-03-03 08:47:08 error: uncaughtException: a is not defined
+ReferenceError: a is not defined
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/src/index.js:11:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Module._compile (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.newLoader [as .js] (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/node/lib/_babel-node.js:170:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2021-03-03 08:47:08 error: uncaughtException: a is not defined
+ReferenceError: a is not defined
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/src/index.js:11:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Module._compile (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.newLoader [as .js] (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/node/lib/_babel-node.js:170:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2021-03-03 15:28:55 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:28:55 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:38:58 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:38:58 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:39:45 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:39:45 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:40:41 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:40:41 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)

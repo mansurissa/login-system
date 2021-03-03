@@ -1,18 +1,23 @@
 require('dotenv').config();
 
-const { DEV_DB_URL, TEST_DB_URL, PRODUCTION_DB } = process.env;
+const { DEV_DATABASE_URL, DATABASE_URL, TEST_DATABASE_URL } = process.env;
 
 module.exports = {
   development: {
-    url: DEV_DB_URL,
+    url: DEV_DATABASE_URL,
     dialect: 'postgres',
+    logging: false,
   },
   test: {
-    url: TEST_DB_URL,
+    url: TEST_DATABASE_URL,
     dialect: 'postgres',
+    logging: false,
   },
   production: {
-    url: PRODUCTION_DB,
+    url: DATABASE_URL,
     dialect: 'postgres',
+    use_env_variable: 'DATABASE_URL',
+    logging: false,
+    ssl: true,
   },
 };

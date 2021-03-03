@@ -1,0 +1,168 @@
+2021-03-03 08:44:47 info: ::1 - - [03/Mar/2021:06:44:47 +0000] "PATCH /api/users/makeUser/5 HTTP/1.1" 400 69 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 08:45:48 info: [0mPATCH /api/users/makeUser/5 [33m400[0m 47.793 ms - 69[0m
+
+2021-03-03 08:46:36 info: ::1 - - [03/Mar/2021:06:46:36 +0000] "PATCH /api/users/makeUser/5 HTTP/1.1" 400 69 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 08:47:08 error: uncaughtException: a is not defined
+ReferenceError: a is not defined
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/src/index.js:11:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Module._compile (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.newLoader [as .js] (/Users/andela/Desktop/blog/blog-api/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/node/lib/_babel-node.js:170:21)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2021-03-03 08:51:16 info: ::1 - - [03/Mar/2021:06:51:16 +0000] "PATCH /api/users/makeUser/5/gfghf HTTP/1.1" 404 167 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 08:51:50 info: ::1 - - [03/Mar/2021:06:51:50 +0000] "PATCH /api/users/makeUser/5 HTTP/1.1" 400 69 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 11:23:08 info: ::1 - - [03/Mar/2021:09:23:08 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:23:13 info: ::1 - - [03/Mar/2021:09:23:13 +0000] "GET /api HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:23:13 info: ::1 - - [03/Mar/2021:09:23:13 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/api" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:23:27 info: ::1 - - [03/Mar/2021:09:23:27 +0000] "GET /api/users HTTP/1.1" 401 75 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:23:34 info: ::1 - - [03/Mar/2021:09:23:34 +0000] "GET /api/users/auth HTTP/1.1" 401 75 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:23:44 info: ::1 - - [03/Mar/2021:09:23:44 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:25:17 info: ::1 - - [03/Mar/2021:09:25:17 +0000] "GET /api/users/auth HTTP/1.1" 401 75 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:25:26 info: ::1 - - [03/Mar/2021:09:25:26 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:26:51 info: ::1 - - [03/Mar/2021:09:26:51 +0000] "GET /auth/google/callback?code=4%2F0AY0e-g7m5ecuTq3pflAwfXF2NhvW5ngOs7IgqMzI6UW-yb3BNlhok5wG9m09wG1Fy-NHfQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:27:51 info: ::1 - - [03/Mar/2021:09:27:51 +0000] "GET /auth/google/callback HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:27:56 info: ::1 - - [03/Mar/2021:09:27:56 +0000] "GET /auth/google/callback HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:29:18 info: ::1 - - [03/Mar/2021:09:29:18 +0000] "GET /auth/google HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:29:21 info: ::1 - - [03/Mar/2021:09:29:21 +0000] "GET /auth/google HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:29:53 info: ::1 - - [03/Mar/2021:09:29:53 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:34:12 info: ::1 - - [03/Mar/2021:09:34:12 +0000] "GET /auth/google/callback?code=4%2F0AY0e-g62kFdo-pUkUpEDJZS4J2pwaQyoVXf5yLjynB9NLYPGDRpl10URLtqOrEpA2N3vmA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:46:50 info: ::1 - - [03/Mar/2021:09:46:50 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 11:51:33 info: ::1 - - [03/Mar/2021:09:51:33 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:09:47 info: ::1 - - [03/Mar/2021:13:09:47 +0000] "GET /api/users/auth/google HTTP/1.1" 500 1415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:16:21 info: ::1 - - [03/Mar/2021:13:16:21 +0000] "GET /api/users/auth/google HTTP/1.1" 500 1415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:16:23 info: ::1 - - [03/Mar/2021:13:16:23 +0000] "GET /api/users/auth/google HTTP/1.1" 500 1415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:16:24 info: ::1 - - [03/Mar/2021:13:16:24 +0000] "GET /api/users/auth/google HTTP/1.1" 500 1415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:20:23 info: ::1 - - [03/Mar/2021:13:20:23 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:26:23 info: ::1 - - [03/Mar/2021:13:26:23 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:28:11 info: ::1 - - [03/Mar/2021:13:28:11 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g6qYDfmY_AbVcN4BmekexurJj1K_pFKWj5hATxlYEs2QtMvx2rQDNf4ybPcMFU2vA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 500 1186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:28:55 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:29:37 info: ::1 - - [03/Mar/2021:13:29:37 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g7Po0pqrE_chFHvZCCDjdo3Lpm8ZMsI29OW80xt_pdoolohOvZNnvf6K9PiYAorhA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 500 1186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:30:43 info: ::1 - - [03/Mar/2021:13:30:43 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g4IlP1DCR1jHnq9ooOXLmdwARcjvbJ2eAgh6Ochbua3wyyGe8rd4AITvX9PnuDdtA&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 500 1186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:31:44 info: ::1 - - [03/Mar/2021:13:31:44 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g63Rh0Hx1DuoCP6q1L2ouheVnHSNlpnYrAJ8nuil6ifUQI69M3cnmn4RGJyNCohfw&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 500 1186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:32:14 info: ::1 - - [03/Mar/2021:13:32:14 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g6XmjE45PnfbuNddFW3n96zJ9lpMLtw8Ijw1v40InugzR2tQYtwzPTJe9T6oMEueQ&scope=profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:32:45 info: ::1 - - [03/Mar/2021:13:32:45 +0000] "GET /api/users HTTP/1.1" 200 1330 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:38:21 info: ::1 - - [03/Mar/2021:13:38:21 +0000] "DELETE /api/users/6 HTTP/1.1" 200 76 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:38:25 info: ::1 - - [03/Mar/2021:13:38:25 +0000] "GET /api/users HTTP/1.1" 200 1136 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:38:50 info: ::1 - - [03/Mar/2021:13:38:50 +0000] "GET /api/users/auth/google HTTP/1.1" 302 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:38:58 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:39:45 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:40:09 info: ::1 - - [03/Mar/2021:13:40:09 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g5_SpMRQr4YOxReQMvZrtPHM2FO1frGqCfP20zSwqem5XQC4nt9DJbmFLnPJkKTqw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 500 1186 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:40:41 error: unhandledRejection: Cannot read property 'givenName' of undefined
+TypeError: Cannot read property 'givenName' of undefined
+    at _callee$ (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:17:35)
+    at tryCatch (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/Users/andela/Desktop/blog/blog-api/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:3:24)
+    at _next (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:25:9)
+    at /Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:32:7
+    at new Promise (<anonymous>)
+    at Strategy.<anonymous> (/Users/andela/Desktop/blog/blog-api/node_modules/@babel/runtime/helpers/asyncToGenerator/index.js:21:12)
+    at Strategy._verify (/Users/andela/Desktop/blog/blog-api/src/configs/passport.js:8:5)
+2021-03-03 15:41:13 info: ::1 - - [03/Mar/2021:13:41:13 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g46WBmVDtyD94rrNhGaeBnQU99MYlIA1tKDuskF5fPvznAw_kSgEbfCaR43tVUbKw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:43:09 info: ::1 - - [03/Mar/2021:13:43:09 +0000] "GET /api/users HTTP/1.1" 200 1330 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:43:16 info: ::1 - - [03/Mar/2021:13:43:16 +0000] "DELETE /api/users/7 HTTP/1.1" 200 76 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:43:37 info: ::1 - - [03/Mar/2021:13:43:37 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g4r0t6p5PbGVR31aYg4jUadfHfGAVbbFkJUTXCyQsgG10dpyAEOPXlkSUTPJtAg0w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:43:50 info: ::1 - - [03/Mar/2021:13:43:50 +0000] "GET /api/users HTTP/1.1" 401 75 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:43:52 info: ::1 - - [03/Mar/2021:13:43:52 +0000] "GET /api/users HTTP/1.1" 401 75 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:45:21 info: ::1 - - [03/Mar/2021:13:45:21 +0000] "POST /api/users/signin HTTP/1.1" 200 520 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:45:34 info: ::1 - - [03/Mar/2021:13:45:34 +0000] "GET /api/users HTTP/1.1" 200 1354 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:57:01 info: ::1 - - [03/Mar/2021:13:57:01 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g6umslOfK7tXZQ51OiTbDY0gqoCTQ-mPCLMCGPxFz_YbqgWneJ-KOI8L9J4pH57jg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 200 493 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:57:37 info: ::1 - - [03/Mar/2021:13:57:37 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g796Bg4-ss7JfujoIiGP8a4gpNODjP89TVe2Vo4kaXwXh0sG7cjgzPNuIH6ZnlHkQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 200 493 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+
+2021-03-03 15:58:34 info: ::1 - - [03/Mar/2021:13:58:34 +0000] "GET /api/users/profile HTTP/1.1" 401 75 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:58:41 info: ::1 - - [03/Mar/2021:13:58:41 +0000] "GET /api/users/profile HTTP/1.1" 200 164 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:59:19 info: ::1 - - [03/Mar/2021:13:59:19 +0000] "PATCH /api/users/profile HTTP/1.1" 200 86 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 15:59:54 info: ::1 - - [03/Mar/2021:13:59:54 +0000] "PATCH /api/users/profile HTTP/1.1" 200 86 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 16:00:02 info: ::1 - - [03/Mar/2021:14:00:02 +0000] "GET /api/users/profile HTTP/1.1" 200 160 "-" "PostmanRuntime/7.26.10"
+
+2021-03-03 16:00:16 info: ::1 - - [03/Mar/2021:14:00:16 +0000] "GET /api/users/auth/google/callback?code=4%2F0AY0e-g4abOB08ua8AN37yzqaBNvViIBkXmuGzN6AzCAE0Hn_-yIqpIIczotzno4rhLr1iw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent HTTP/1.1" 200 489 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+

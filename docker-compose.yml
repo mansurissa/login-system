@@ -13,7 +13,7 @@ services:
       - ./:/usr/src/super-app
 
   #adding postgress
-  postgres:
+  mongoDb:
     container_name: postgres
     image: postgres
     ports:
