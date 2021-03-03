@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { sign, verify } from 'jsonwebtoken';
-import { compare, hash } from 'bcrypt';
+import { compare, hash } from 'bcryptjs';
 
 const { JWT_SECRET } = process.env;
 

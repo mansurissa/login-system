@@ -1,6 +1,6 @@
 FROM node:12.18.4
 
-WORKDIR /usr/src/super-app
+WORKDIR /usr/src/starter
 
 COPY ./ ./
 

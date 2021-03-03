@@ -1,16 +1,16 @@
 version: '2.2'
 
 services:
-  super-app:
+  starter-app:
     container_name: backend
     image: node:12.18.4
     build: ./
     command: npm run dev
-    working_dir: /usr/src/super-app
+    working_dir: /usr/src/starter
     ports:
       - '3500:3500'
     volumes:
-      - ./:/usr/src/super-app
+      - ./:/usr/src/starter
 
   #adding postgress
   mongoDb:
